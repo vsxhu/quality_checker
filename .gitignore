@@ -1,0 +1,8 @@
+# CLION IDE
+cmake-build-debug/
+.idea/
+
+
+# binary and output dirs
+runtime/
+build/
