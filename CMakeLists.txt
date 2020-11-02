@@ -9,10 +9,10 @@ find_package(ZLIB REQUIRED)
 find_package(PNG REQUIRED)
 add_definitions(-Wunused-result)
 
+
 include_directories(
         thirdparty/pvbandsim
         src
-        ${BLAS_INCLUDE_DIRECTORIES}
         ${ZLIB_INCLUDE_DIRS}
         ${PNG_INCLUDE_DIRS}
 )
